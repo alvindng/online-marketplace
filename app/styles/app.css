@@ -7,6 +7,15 @@ img {
   height: auto;
 }
 
+img.icon {
+  width: 75px;
+  height: 75px;
+}
+
 button {
   margin-top: 20px;
+}
+
+.nav-links-padding {
+  padding-top: 25px;
 }
