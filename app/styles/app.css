@@ -24,3 +24,8 @@ button {
 .buttons {
   display: flex;
 }
+
+.shopping-cart {
+  display: flex;
+  align-items: baseline;
+}

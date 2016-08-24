@@ -1,6 +1,10 @@
 
-{{display-cart}}
+<div class="col-sm-6">
+  {{#each model as |product|}}
+    {{product-tile product=product}}
+  {{/each}}
+</div>
 
-{{#each model as |product|}}
-  {{product-tile product=product}}
-{{/each}}
+<div class="col-sm-6">
+  {{display-cart}}
+</div>
