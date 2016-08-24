@@ -1,6 +1,8 @@
+{{#link-to 'product' product.id}}
 <h2>{{product.title}}: {{product.description}}</h2>
 <h3>{{product.cost}}</h3>
 <img src="{{product.image}}" alt="{{product.title}}" /><br>
+{{/link-to}}
 
 <button {{action 'addToCart' product}} class="btn btn-success">ADD TO <span class="glyphicon glyphicon-shopping-cart"></span></button>
 <hr>
