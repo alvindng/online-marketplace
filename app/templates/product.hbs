@@ -3,3 +3,5 @@
 <img src="{{model.image}}" alt="{{model.title}}" /><br>
 
 <button {{action 'addToCart' model}} class="btn btn-success">ADD TO <span class="glyphicon glyphicon-shopping-cart"></span></button>
+
+<button {{action 'removeFromCart' model}} class="btn btn-danger">REMOVE FROM <span class="glyphicon glyphicon-shopping-cart"></span></button>
