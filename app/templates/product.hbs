@@ -1,5 +1,6 @@
-<h2>{{model.title}}: {{model.description}}</h2>
-<h3>{{model.cost}}</h3>
+<h2>{{model.title}}</h2>
+<h3>{{model.description}}</h3>
+<h4>${{model.cost}}</h4>
 <img src="{{model.image}}" alt="{{model.title}}" /><br>
 
 <button {{action 'addToCart' model}} class="btn btn-success">ADD TO <span class="glyphicon glyphicon-shopping-cart"></span></button>
