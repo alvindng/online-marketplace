@@ -21,11 +21,9 @@
         {{input value=image id="image1" placeholder=product.image class="form-control"}}
       </div>
 
-      <button class="btn btn-warning" {{action 'update' product}}>Update Product</button>
+      <button class="btn btn-warning" {{action 'update' product}}>UPDATE PRODUCT</button>
     </form>
-    <hr>
   </div>
 {{else}}
-  <button class="btn btn-warning" {{action "updateProductFormShow"}}>Update</button>
-  <hr>
+  <button class="btn btn-warning" {{action "updateProductFormShow"}}>UPDATE</button>
 {{/if}}

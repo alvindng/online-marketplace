@@ -14,8 +14,13 @@ img.icon {
 
 button {
   margin-top: 20px;
+  margin-right: 10px;
 }
 
 .nav-links-padding {
   padding-top: 25px;
+}
+
+.buttons {
+  display: flex;
 }
