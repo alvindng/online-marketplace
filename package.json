@@ -38,10 +38,7 @@
     "ember-data": "^2.7.0",
     "ember-export-application-global": "^1.0.5",
     "ember-load-initializers": "^0.5.1",
-<<<<<<< HEAD
     "ember-power-select": "1.0.0-beta.13",
-=======
->>>>>>> 387a1c4aaf98e26865f1d2a7a1c17f634b539553
     "ember-resolver": "^2.0.3",
     "ember-truth-helpers": "1.2.0",
     "ember-welcome-page": "^1.0.1",

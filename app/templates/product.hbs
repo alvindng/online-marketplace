@@ -9,7 +9,7 @@
 
 <h3>Previous Feedback</h3>
 {{#each model.feedbacks as |feedback|}}
-  {{feedback-tile feedback=feedback}}
+  {{product-rating feedback}} {{feedback-tile feedback=feedback}} 
 {{/each}}
 <h3>Leave new Feedback</h3>
 {{new-feedback product=model saveFeedback="saveFeedback"}}

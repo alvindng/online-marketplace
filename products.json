@@ -1,5 +1,5 @@
 { "products": [{
-<<<<<<< HEAD
+
     "title": "Purple Clogs",
     "image": "https://img0.etsystatic.com/040/0/7131267/il_570xN.609888750_hc70.jpg",
     "description": "Clogs for women . . .  now worn by men (or at least Scooter Matt)!",
@@ -7,7 +7,7 @@
   }, {
     "title": "Brown Clogs (Scooter Matt's Favorite)",
     "image": "http://content.backcountry.com/images/items/900/DSK/DSK0006/PRABO.jpg",
-    "description": "A classic . . .  just ask Scooter Matt (or Jill).",
+    "description": "A classic . . .  just ask Scooter Matt!",
     "cost": "130"
   }, {
     "title": "Clerbbin' Clogs",
@@ -19,22 +19,5 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Dutchclogs.jpg",
     "description": "Classic look with flowers . . .  perfect for him (well, at least for Scooter Matt).",
     "cost": "150"
-    }]
-=======
-    "title": "Salt",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg",
-    "description": "Yummers",
-    "cost": "15"
-  }, {
-    "title": "Orange",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg",
-    "description": "fruit",
-    "cost": "3"
-  }, {
-    "title": "Sunglasses",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg",
-    "description": "shades",
-    "cost": "49"
   }]
->>>>>>> 387a1c4aaf98e26865f1d2a7a1c17f634b539553
 }
