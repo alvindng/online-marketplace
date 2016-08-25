@@ -1,0 +1,17 @@
+<h2>{{model.title}}</h2>
+<h3>{{model.description}}</h3>
+<h4>${{model.cost}}</h4>
+<img src="{{model.image}}" alt="{{model.title}}" /><br>
+
+{{#link-to 'store'}}<button {{action 'addToCart' model}} class="btn btn-success">ADD TO <span class="glyphicon glyphicon-shopping-cart"></span></button>{{/link-to}}
+
+{{#link-to 'store'}}<button {{action 'removeFromCart' model}} class="btn btn-danger">REMOVE FROM <span class="glyphicon glyphicon-shopping-cart"></span></button>{{/link-to}}
+
+<h3>Previous Feedback</h3>
+{{#each model.feedbacks as |feedback|}}
+  {{feedback-tile feedback=feedback}}
+{{/each}}
+<h3>Leave new Feedback</h3>
+{{new-feedback product=model saveFeedback="saveFeedback"}}
+
+{{#link-to 'store'}}<button class="btn btn-info">BACK TO STORE</button>{{/link-to}}

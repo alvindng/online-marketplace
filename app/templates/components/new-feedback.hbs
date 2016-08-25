@@ -1,0 +1,26 @@
+<form>
+  <div class="form-group">
+    <label for="rating">Rating</label>
+
+    {{#power-select
+      selected=vote
+      options=ratings
+      onchange=(action "chooseRating")
+      as |rating|}}
+      {{rating}}
+    {{/power-select}}
+
+  </div>
+
+  <div class="form-group">
+    <label for="comment">Comment</label>
+    {{textarea cols="80" rows="6" value=comment id="comment" class="form-control"}}
+  </div>
+
+  <div class="form-group">
+    <label for="author">Author</label>
+    {{input value=author id="author" class="form-control"}}
+  </div>
+
+  <button {{action 'saveFeedback'}} class="btn btn-success">SAVE FEEDBACK</button>
+</form>

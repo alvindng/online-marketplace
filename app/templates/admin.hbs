@@ -1,0 +1,11 @@
+{{new-product save="save" product=model}}
+
+{{#each model as |product|}}
+  <h3>{{product.title}}</h3>
+  <img src="{{product.image}}" alt="{{product.title}}">
+  <div class="buttons">
+    {{edit-product update="update" product=product}}
+    {{delete-product destroyProduct="delete" product=product}}
+  </div>
+  <hr>
+{{/each}}

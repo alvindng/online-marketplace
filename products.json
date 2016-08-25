@@ -1,0 +1,22 @@
+{ "products": [{
+    "title": "Purple Clogs",
+    "image": "https://img0.etsystatic.com/040/0/7131267/il_570xN.609888750_hc70.jpg",
+    "description": "Clogs for women . . .  now worn by men (or at least Scooter Matt)!",
+    "cost": "120"
+  }, {
+    "title": "Brown Clogs (Scooter Matt's Favorite)",
+    "image": "http://content.backcountry.com/images/items/900/DSK/DSK0006/PRABO.jpg",
+    "description": "A classic . . .  just ask Scooter Matt (or Jill).",
+    "cost": "130"
+  }, {
+    "title": "Clerbbin' Clogs",
+    "image": "https://loveclogblog.files.wordpress.com/2010/02/leopard-print-clogs-l.jpg",
+    "description": "Meeeow!",
+    "cost": "200"
+  }, {
+    "title": "Dutch Yellow Clogs",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Dutchclogs.jpg",
+    "description": "Classic look with flowers . . .  perfect for him (well, at least for Scooter Matt).",
+    "cost": "150"
+    }]
+}

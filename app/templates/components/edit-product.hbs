@@ -1,0 +1,29 @@
+{{#if updateProduct}}
+  <div>
+    <form>
+      <div class="">
+        <label for="title">Title</label>
+        {{input value=title id="title1" placeholder=product.title class="form-control"}}
+      </div>
+
+      <div class="">
+        <label for="description">Description</label>
+        {{textarea cols='80' rows='6' value=description id="description1" placeholder=product.description class="form-control"}}
+      </div>
+
+      <div class="">
+        <label for="cost">Cost</label>
+        {{input value=cost id="cost1" placeholder=product.cost class="form-control"}}
+      </div>
+
+      <div class="">
+        <label for="image">Image</label>
+        {{input value=image id="image1" placeholder=product.image class="form-control"}}
+      </div>
+
+      <button class="btn btn-warning" {{action 'update' product}}>UPDATE PRODUCT</button>
+    </form>
+  </div>
+{{else}}
+  <button class="btn btn-warning" {{action "updateProductFormShow"}}>UPDATE</button>
+{{/if}}
